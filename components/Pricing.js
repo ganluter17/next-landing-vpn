@@ -245,7 +245,7 @@ const Pricing = () => {
                   <h5 className="text-black-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
                     Подключиться сейчас для  <br /> Дополнительных скидок!
                   </h5>
-                  <p>Подключтайтесь и наслаждайтесь интернетом без ограничений</p>
+                  <p>Подключтайтесь и наслаждайтесь интернетом без ограничений.</p>
                 </div>
                 <ButtonPrimary onClick={() => window.location.href = 'https://t.me/Hidefreedom_bot'}>Подключиться</ButtonPrimary>
               </div>
