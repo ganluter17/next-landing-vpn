@@ -10,40 +10,40 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
+      name: "Александр К.",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      city: "Москва",
+      country: "Россия",
+      rating: "5.0",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Наконец-то нашёл VPN, который работает стабильно и быстро! Использую для работы и развлечений, всё идеально. Рекомендую всем!",
     },
     {
-      name: "iezh Robert",
+      name: "Елена М.",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      city: "Санкт-Петербург",
+      country: "Россия",
+      rating: "4.9",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Подключение занимает пару секунд, скорость не падает, даже когда смотрю стримы. Очень довольна!",
     },
     {
-      name: "iezh Robert",
+      name: "Виктор Е.",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      city: "Екатеринбург",
+      country: "Россия",
+      rating: "4.8",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Отличное приложение! Подключился к серверу за границей и наслаждаюсь полным доступом к контенту. Супер!",
     },
     {
-      name: "iezh Robert",
+      name: "Сергей П.",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      city: "Москва",
+      country: "Россия",
+      rating: "5.0",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Просто фантастика! Я пробовал много VPN, но этот лучший из всех. Удобно, быстро, и никаких лагов!",
     },
   ],
 }) => {
