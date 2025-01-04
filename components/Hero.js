@@ -42,7 +42,7 @@ const Hero = ({
               <p className="text-black-500 mt-4 mb-6">
                 Исследуйте Интернет без ограничений! Android, iOS, Win, SmartTV
               </p>
-              <ButtonPrimary>Подключиться</ButtonPrimary>
+             <ButtonPrimary onClick={() => window.location.href = 'https://t.me/Hidefreedom_bot'}>Подключиться</ButtonPrimary>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>

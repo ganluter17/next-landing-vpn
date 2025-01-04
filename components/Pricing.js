@@ -53,7 +53,7 @@ const Pricing = () => {
                   />
                 </div>
                 <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                  Free Plan
+                  Пробная подписка
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-2">
@@ -73,7 +73,7 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                     Free
                   </p>
-                  <ButtonOutline>Выбрать</ButtonOutline>
+                  <ButtonPrimary onClick={() => window.location.href = 'https://t.me/Hidefreedom_bot'}>Подключиться</ButtonPrimary>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -97,7 +97,7 @@ const Pricing = () => {
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Standard Plan{" "}
+                3 Месяца{" "}
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
@@ -115,9 +115,9 @@ const Pricing = () => {
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  270 Рублей <span className="text-black-500">/ mo</span>
+                  90 Рублей <span className="text-black-500">/ мес</span>
                 </p>
-                <ButtonOutline>Выбрать</ButtonOutline>
+                <ButtonPrimary onClick={() => window.location.href = 'https://t.me/Hidefreedom_bot'}>Подключиться</ButtonPrimary>
               </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -141,7 +141,7 @@ const Pricing = () => {
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Premium Plan{" "}
+                12 Месяцев{" "}
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
@@ -162,10 +162,11 @@ const Pricing = () => {
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $12 <span className="text-black-500">/ mo</span>
+                  66 руб <span className="text-black-500">/ мес</span>
                 </p>
 
-                <ButtonOutline>Select</ButtonOutline>
+                <ButtonPrimary onClick={() => window.location.href = 'https://t.me/Hidefreedom_bot'}>Подключиться</ButtonPrimary>
+
               </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -176,11 +177,10 @@ const Pricing = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
-              Huge Global Network of Fast VPN{" "}
+              Защищенный и быстрый VPN{" "}
             </motion.h3>
             <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
-              See LaslesVPN everywhere to make it easier for you when you move
-              locations.
+              Используйте VPN безопасно, где бы вы не находились!
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
@@ -247,7 +247,7 @@ const Pricing = () => {
                   </h5>
                   <p>Подключтайтесь и наслаждайтесь интернетом без ограничений</p>
                 </div>
-                <ButtonPrimary>Подключиться</ButtonPrimary>
+                <ButtonPrimary onClick={() => window.location.href = 'https://t.me/Hidefreedom_bot'}>Подключиться</ButtonPrimary>
               </div>
               <div
                 className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-60 sm:h-56 top-0 mt-8 mx-auto left-0 right-0"
