@@ -32,7 +32,7 @@ const Pricing = () => {
               Выберите подходящую для вас подписку и используйте её с удовольствием и радостью!
             </motion.p>
           </ScrollAnimationWrapper>
-          <<div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-16 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
+          <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-16 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
   <ScrollAnimationWrapper className="flex justify-center">
     <motion.div
       variants={scrollAnimation}
@@ -183,10 +183,6 @@ const Pricing = () => {
     </motion.div>
   </ScrollAnimationWrapper>
 </div>
-
-              </motion.div>
-            </ScrollAnimationWrapper>
-          </div>
         </div>
         <div className="flex flex-col w-full my-16">
           <ScrollAnimationWrapper>
