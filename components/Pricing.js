@@ -32,142 +32,158 @@ const Pricing = () => {
               Выберите подходящую для вас подписку и используйте её с удовольствием и радостью!
             </motion.p>
           </ScrollAnimationWrapper>
-          <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
-            <ScrollAnimationWrapper className="flex justify-center">
-              <motion.div
-                variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
-                whileHover={{
-                  scale : 1.1,
-                  transition: {
-                    duration: .2
-                  }
-                }}
-              >
-                <div className="p-4 lg:p-0 mt-6 lg:mt-16">
-                  <Image
-                    src="/assets/Free.png"
-                    width={145}
-                    height={165}
-                    alt="Пробная подписка"
-                  />
-                </div>
-                <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                  Пробная подписка
-                </p>
-                <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                  <li className="relative check custom-list my-2">
-                    Без Ограничений По трафику.
-                  </li>
-                  <li className="relative check custom-list my-2">
-                    Защищенное соединение
-                  </li>
-                  <li className="relative check custom-list my-2">
-                    Пробный период 1 сутки
-                  </li>
-                  <li className="relative check custom-list my-2">
-                    Работает на всех устройствах
-                  </li>
-                </ul>
-                <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                  <p className="text-2xl text-black-600 text-center mb-4 ">
-                    Бесплатно!
-                  </p>
-                  <ButtonPrimary onClick={() => window.location.href = 'https://t.me/Hidefreedom_bot'}>Подключиться</ButtonPrimary>
-                </div>
-              </motion.div>
-            </ScrollAnimationWrapper>
-            <ScrollAnimationWrapper className="flex justify-center">
-              <motion.div
-                variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
-                whileHover={{
-                  scale : 1.1,
-                  transition: {
-                    duration: .2
-                  }
-                }}
-              >
-              <div className="p-4 lg:p-0 mt-6 lg:mt-16">
-                <Image
-                  src="/assets/Standard.png"
-                  width={145}
-                  height={165}
-                  alt="3 Месяца"
-                />
-              </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                3 Месяца{" "}
-              </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Без Ограничений По трафику
-                </li>
-                <li className="relative check custom-list my-2">
-                  Защищенное соединение.
-                </li>
-                <li className="relative check custom-list my-2">
-                  3 Протокола Защиты Данных
-                </li>
-                <li className="relative check custom-list my-2">
-                  Работает на всех устройствах
-                </li>
-              </ul>
-              <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                <p className="text-2xl text-black-600 text-center mb-4 ">
-                  90 Р <span className="text-black-500">/ мес</span>
-                </p>
-                <ButtonPrimary onClick={() => window.location.href = 'https://t.me/Hidefreedom_bot'}>Подключиться</ButtonPrimary>
-              </div>
-              </motion.div>
-            </ScrollAnimationWrapper>
-            <ScrollAnimationWrapper className="flex justify-center">
-              <motion.div
-                variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
-                whileHover={{
-                  scale : 1.1,
-                  transition: {
-                    duration: .2
-                  }
-                }}
-              >
-              <div className="p-4 lg:p-0 mt-6 lg:mt-16">
-                <Image
-                  src="/assets/Premium.png"
-                  width={145}
-                  height={165}
-                  alt="12 Месяцев"
-                />
-              </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                12 Месяцев{" "}
-              </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Без Ограничений По трафику
-                </li>
-                <li className="relative check custom-list my-2">
-                  Защищенное соединение.
-                </li>
-                <li className="relative check custom-list my-2">
-                  3 Протокола Защиты Данных
-                </li>
-                <li className="relative check custom-list my-2">
-                  Работает на всех устройствах
-                </li>
-                <li className="relative check custom-list my-2">
-                  Скидка 30%{" "}
-                </li>
-              </ul>
-              <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                <p className="text-2xl text-black-600 text-center mb-4 ">
-                  66 руб <span className="text-black-500">/ мес</span>
-                </p>
+          <<div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-16 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
+  <ScrollAnimationWrapper className="flex justify-center">
+    <motion.div
+      variants={scrollAnimation}
+      className="flex flex-col justify-center items-center rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+      whileHover={{
+        scale: 1.1,
+        transition: {
+          duration: 0.2,
+        },
+      }}
+    >
+      <div className="p-4 lg:p-0 mt-6 lg:mt-16">
+        <Image
+          src="/assets/Free.png"
+          width={145}
+          height={165}
+          alt="Пробная подписка"
+        />
+      </div>
+      <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+        Пробная подписка
+      </p>
+      <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
+        <li className="relative check custom-list my-2">
+          Без Ограничений По трафику.
+        </li>
+        <li className="relative check custom-list my-2">
+          Защищенное соединение
+        </li>
+        <li className="relative check custom-list my-2">
+          Пробный период 1 сутки
+        </li>
+        <li className="relative check custom-list my-2">
+          Работает на всех устройствах
+        </li>
+      </ul>
+      <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
+        <p className="text-2xl text-black-600 text-center mb-4">Бесплатно!</p>
+        <ButtonPrimary
+          onClick={() =>
+            window.location.href = 'https://t.me/Hidefreedom_bot'
+          }
+        >
+          Подключиться
+        </ButtonPrimary>
+      </div>
+    </motion.div>
+  </ScrollAnimationWrapper>
+  <ScrollAnimationWrapper className="flex justify-center">
+    <motion.div
+      variants={scrollAnimation}
+      className="flex flex-col justify-center items-center rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+      whileHover={{
+        scale: 1.1,
+        transition: {
+          duration: 0.2,
+        },
+      }}
+    >
+      <div className="p-4 lg:p-0 mt-6 lg:mt-16">
+        <Image
+          src="/assets/Standard.png"
+          width={145}
+          height={165}
+          alt="3 Месяца"
+        />
+      </div>
+      <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+        3 Месяца
+      </p>
+      <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
+        <li className="relative check custom-list my-2">
+          Без Ограничений По трафику
+        </li>
+        <li className="relative check custom-list my-2">
+          Защищенное соединение.
+        </li>
+        <li className="relative check custom-list my-2">
+          3 Протокола Защиты Данных
+        </li>
+        <li className="relative check custom-list my-2">
+          Работает на всех устройствах
+        </li>
+      </ul>
+      <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
+        <p className="text-2xl text-black-600 text-center mb-4">
+          90 Р <span className="text-black-500">/ мес</span>
+        </p>
+        <ButtonPrimary
+          onClick={() =>
+            window.location.href = 'https://t.me/Hidefreedom_bot'
+          }
+        >
+          Подключиться
+        </ButtonPrimary>
+      </div>
+    </motion.div>
+  </ScrollAnimationWrapper>
+  <ScrollAnimationWrapper className="flex justify-center">
+    <motion.div
+      variants={scrollAnimation}
+      className="flex flex-col justify-center items-center rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+      whileHover={{
+        scale: 1.1,
+        transition: {
+          duration: 0.2,
+        },
+      }}
+    >
+      <div className="p-4 lg:p-0 mt-6 lg:mt-16">
+        <Image
+          src="/assets/Premium.png"
+          width={145}
+          height={165}
+          alt="12 Месяцев"
+        />
+      </div>
+      <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+        12 Месяцев
+      </p>
+      <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
+        <li className="relative check custom-list my-2">
+          Без Ограничений По трафику
+        </li>
+        <li className="relative check custom-list my-2">
+          Защищенное соединение.
+        </li>
+        <li className="relative check custom-list my-2">
+          3 Протокола Защиты Данных
+        </li>
+        <li className="relative check custom-list my-2">
+          Работает на всех устройствах
+        </li>
+        <li className="relative check custom-list my-2">Скидка 30%</li>
+      </ul>
+      <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
+        <p className="text-2xl text-black-600 text-center mb-4">
+          66 руб <span className="text-black-500">/ мес</span>
+        </p>
+        <ButtonPrimary
+          onClick={() =>
+            window.location.href = 'https://t.me/Hidefreedom_bot'
+          }
+        >
+          Подключиться
+        </ButtonPrimary>
+      </div>
+    </motion.div>
+  </ScrollAnimationWrapper>
+</div>
 
-                <ButtonPrimary onClick={() => window.location.href = 'https://t.me/Hidefreedom_bot'}>Подключиться</ButtonPrimary>
-
-              </div>
               </motion.div>
             </ScrollAnimationWrapper>
           </div>
