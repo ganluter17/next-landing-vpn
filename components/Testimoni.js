@@ -20,7 +20,7 @@ const Testimoni = ({
     },
     {
       name: "Елена М.",
-      image: "/assets/people-3.png",
+      image: "/assets/people-2.png",
       city: "Санкт-Петербург",
       country: "Россия",
       rating: "4.9",
@@ -29,21 +29,12 @@ const Testimoni = ({
     },
     {
       name: "Виктор Е.",
-      image: "/assets/people-3.png",
+      image: "/assets/people-1.png",
       city: "Екатеринбург",
       country: "Россия",
       rating: "4.8",
       testimoni:
         "Отличное приложение! Подключился к серверу за границей и наслаждаюсь полным доступом к контенту. Супер!",
-    },
-    {
-      name: "Сергей П.",
-      image: "/assets/people-3.png",
-      city: "Москва",
-      country: "Россия",
-      rating: "5.0",
-      testimoni:
-        "Просто фантастика! Я пробовал много VPN, но этот лучший из всех. Удобно, быстро, и никаких лагов!",
     },
   ],
 }) => {

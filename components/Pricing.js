@@ -71,7 +71,7 @@ const Pricing = () => {
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <p className="text-2xl text-black-600 text-center mb-4 ">
-                    Free
+                    Бесплатно!
                   </p>
                   <ButtonPrimary onClick={() => window.location.href = 'https://t.me/Hidefreedom_bot'}>Подключиться</ButtonPrimary>
                 </div>
@@ -115,7 +115,7 @@ const Pricing = () => {
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  90 Рублей <span className="text-black-500">/ мес</span>
+                  90 Р <span className="text-black-500">/ мес</span>
                 </p>
                 <ButtonPrimary onClick={() => window.location.href = 'https://t.me/Hidefreedom_bot'}>Подключиться</ButtonPrimary>
               </div>
